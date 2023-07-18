@@ -14,6 +14,7 @@ import com.magdiel.curso.services.UserService;
 
 @RestController
 @RequestMapping(value="users")
+
 public class usaerResources {
 	@Autowired
 	private UserService service;
